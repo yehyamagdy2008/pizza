@@ -16,6 +16,15 @@ li {
 a {
   text-decoration: none;
 }
+.h1-2 {
+  font-weight: 900;
+  color: white;
+  background-color: red;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+  overflow: hidden;
+}
 #header {
   position: fixed;
   z-index: 1000;
@@ -707,6 +716,16 @@ p i {
   .yyyy {
     padding-right: 35px;
   }
+  .h1-2 {
+    font-weight: 900;
+    color: white;
+    background-color: red;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    overflow: hidden;
+    width: 540px;
+  }
 }
 @media (min-width: 450px) and (max-width: 846px) {
   .container .div-1 .span-2 {
@@ -715,5 +734,34 @@ p i {
   }
   .container .div-1 .span-1 {
     font-size: 80px;
+  }
+  .tea tbody tr td {
+    font-size: 35px;
+    padding-bottom: 10px;
+  }
+  .pie-2-2 {
+    font-size: 33px;
+  }
+  .pie-3-1 {
+    font-size: 27px;
+  }
+  .pie-4-1 {
+    font-size: 32px;
+  }
+  .piie-5-5 {
+    font-size: 30px;
+  }
+  .plugins-2 {
+    font-size: 35px;
+  }
+  .h1-2 {
+    font-weight: 900;
+    color: white;
+    background-color: red;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    overflow: hidden;
+    width: 100%;
   }
 }
