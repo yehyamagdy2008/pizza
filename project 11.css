@@ -352,6 +352,7 @@ p i {
   text-align: center;
   padding: 20px;
   margin: 0;
+  overflow: hidden;
 }
 .box {
   display: flex;
@@ -696,6 +697,9 @@ p i {
   }
   .pie {
     overflow-x: auto;
+  }
+  .pie-1 tbody tr td {
+    padding-bottom: 20px;
   }
   .pie-1 thead tr td {
     padding-right: 20px;
